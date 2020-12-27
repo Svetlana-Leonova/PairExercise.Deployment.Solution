@@ -7,7 +7,6 @@ const client = new Sequelize(dbUrl, {
   operatorsAliases: false,
   dialect: "postgres",
   protocol: "postgres",
-  native: true,
   ssl: true,
   dialectOptions: {
     ssl: true,
